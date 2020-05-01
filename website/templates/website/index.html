@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DjangoAngularApp</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="{% static 'website/vendors/font-awesome/css/all.min.css' %}">
+</head>
+<body>
+    <app-root></app-root>
+    <script src="{% static 'website/dist/runtime-es2015.js' %}" type="module"></script>
+    <script src="{% static 'website/dist/runtime-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'website/dist/polyfills-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'website/dist/polyfills-es2015.js' %}" type="module"></script>
+    <script src="{% static 'website/dist/styles-es2015.js' %}" type="module"></script>
+    <script src="{% static 'website/dist/styles-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'website/dist/vendor-es2015.js' %}" type="module"></script>
+    <script src="{% static 'website/dist/vendor-es5.js' %}" nomodule defer></script>
+    <script src="{% static 'website/dist/main-es2015.js' %}" type="module"></script>
+    <script src="{% static 'website/dist/main-es5.js' %}" nomodule defer></script>
+</body>
+</html>
