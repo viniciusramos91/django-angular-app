@@ -66,6 +66,6 @@ Para executar o projeto, é necessário executar o Backend e o Frontend separado
 
 Para colocar o Backend em execução, utilize o comando `python3 manage.py runserver`.
 
-Em outro terminal, execute o Frontend com `ng build`. 
+Em outro terminal, execute o Frontend com `ng build --aot --build-optimizer --progress --watch`. 
  
  
